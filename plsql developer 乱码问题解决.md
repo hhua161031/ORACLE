@@ -43,4 +43,6 @@ Redo Buffers                2904064 bytes
 `----------------------------------------------------`<br>
 `SIMPLIFIED CHINESE_CHINA.ZHS16GBK`
 
-2,修该plsql客户端字符集
+2,修该plsql客户端字符集<br>
+*查询客户端字符集
+![客户端字符集](https://github.com/hhua161031/ORACLE/blob/master/image/字符.jpg)
