@@ -7,16 +7,16 @@ oracle数据库`字符集`和plsql客户端`不一致`
 问题解决<br>
 --------
 1，修改oracle数据库字符集<br>
-`SQL> connect sys as sysdba
-输入口令:
-ORACLE 例程已经启动。
-Total System Global Area  146800640 bytes
-Fixed Size                  1286220 bytes
-Variable Size              75501492 bytes
-Database Buffers           67108864 bytes
-Redo Buffers                2904064 bytes
-数据库装载完毕。
-SQL>
+`SQL> connect sys as sysdba<br>
+输入口令:<br>
+ORACLE 例程已经启动。<br>
+Total System Global Area  146800640 bytes<br>
+Fixed Size                  1286220 bytes<br>
+Variable Size              75501492 bytes<br>
+Database Buffers           67108864 bytes<br>
+Redo Buffers                2904064 bytes<br>
+数据库装载完毕。<br>
+SQL><br>
 SQL> alter  system  enable  restricted  session  ;
 系统已更改。
 SQL> alter  system  set  JOB_QUEUE_PROCESSES=0;
