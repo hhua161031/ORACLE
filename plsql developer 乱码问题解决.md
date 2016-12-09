@@ -46,6 +46,6 @@ Redo Buffers                2904064 bytes
 2,修该plsql客户端字符集<br>
 * 查询客户端字符集
 ![客户端字符集](https://github.com/hhua161031/ORACLE/blob/master/image/字符.jpg)<br>
-如果和数据库不一致需要修改；
+如果和数据库不一致需要修改；<br>
 3，进入 我的电脑,属性,高级,环境变量,添加2项:LANG=zh_CN.GBK 和 NLS_LANG="SIMPLIFIED CHINESE_CHINA.ZHS16GBK" <br>
 4,PLSQL DEVELOPER,Tools,Preferences,User InterFace,Fonts,Main Font 修改成中文字体
