@@ -40,7 +40,7 @@ Redo Buffers                2904064 bytes
 
 `SQL>select userenv('language') from dual;  `
 `USERENV('LANGUAGE')  `<br>
-\----------------------------------------------------\  
+\----------------------------------------------------
 `SIMPLIFIED CHINESE_CHINA.ZHS16GBK`
 
 2,修该plsql客户端字符集
