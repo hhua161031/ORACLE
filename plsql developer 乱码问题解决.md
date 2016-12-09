@@ -6,7 +6,7 @@ plsql develiper表数据和存储过程注释和表数据中文`？`乱码
 oracle数据库`字符集`和plsql客户端`不一致`
 问题解决<br>
 --------
-1，修改oracle数据库字符集
+1，修改oracle数据库字符集<br>
 `SQL> connect sys as sysdba
 输入口令:
 ORACLE 例程已经启动。
