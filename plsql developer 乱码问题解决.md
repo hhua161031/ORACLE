@@ -7,7 +7,7 @@ oracle数据库`字符集`和plsql客户端`不一致`
 问题解决<br>
 --------
 1，修改oracle数据库字符集<br>
-`SQL> connect sys as sysdba
+`SQL> connect sys as sysdba`
 输入口令:
 ORACLE 例程已经启动。
 
@@ -42,7 +42,7 @@ SQL> alter  database  character  set  internal_use  ZHS16GBK  ;
 
 SQL>select userenv('language') from dual;  
 USERENV('LANGUAGE')  
-----------------------------------------------------  
+\----------------------------------------------------  
 SIMPLIFIED CHINESE_CHINA.ZHS16GBK`
 
 2,修该plsql客户端字符集
