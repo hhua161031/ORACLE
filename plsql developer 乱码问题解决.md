@@ -6,7 +6,7 @@ plsql develiper表数据和存储过程注释和表数据中文`？`乱码
 oracle数据库`字符集`和plsql客户端`不一致`
 问题解决<br>
 --------
-1，修改oracle数据库字符集<br>
+1,修改oracle数据库字符集<br>
 `SQL> connect sys as sysdba`
 
 `输入口令:`
@@ -48,6 +48,6 @@ Redo Buffers                2904064 bytes
 ![客户端字符集](https://github.com/hhua161031/ORACLE/blob/master/image/字符.jpg)<br>
 如果和数据库不一致需要修改；<br>
 
-3，进入 我的电脑,属性,高级,环境变量,添加2项:LANG=zh_CN.GBK 和 NLS_LANG="SIMPLIFIED CHINESE_CHINA.ZHS16GBK" <br> 
+3,进入 我的电脑,属性,高级,环境变量,添加2项:LANG=zh_CN.GBK 和 NLS_LANG="SIMPLIFIED CHINESE_CHINA.ZHS16GBK" <br> 
 
 4,PLSQL DEVELOPER,Tools,Preferences,User InterFace,Fonts,Main Font 修改成中文字体
